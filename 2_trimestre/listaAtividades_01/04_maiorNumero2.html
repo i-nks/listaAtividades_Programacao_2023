@@ -1,13 +1,14 @@
-<script>
-    //Problema: Maior número[2]
-    //Peça ao usuário para informar três números e diga, ao final do programa, qual dos três é o maior número.
-
-    //ENTRADA
-
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
-
+<script UTF-8>
+    const nmr1 = Number(prompt(`Informe um número.`).trim())
+    const nmr2 = Number(prompt(`Informe um segundo número.`).trim())
+    const nmr3 = Number(prompt(`Informe um terceiro número.`).trim())
+    if (nmr1 > nmr2 && nmr1 > nmr3) {
+        document.write(`${nmr1} é o maior.`)
+    }
+    else if (nmr2 > nmr1 && nmr2 > nmr3) {
+        document.write(`${nmr2} é o maior.`)
+    }
+    else if (nmr3 > nmr1 && nmr3 > nmr2) {
+        document.write(`${nmr3} é o maior.`)
+    }
 </script>

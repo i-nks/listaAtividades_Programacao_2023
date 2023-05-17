@@ -1,13 +1,23 @@
 <script>
-    //Problema: Menor número
-    //Peça para o usuário informar três números e identifique qual é o menor número e apresente-o ao final do programa.
 
-    //ENTRADA
-
-
-    //PROCESSAMENTO
-
-
-    //SAÍDA
-
-</script>
+    const num1 = Number(prompt(`Informe o primeiro numero.`));
+    const num2 = Number(prompt(`Informe um segundo numero.`));
+    const num3 = Number(prompt(`Informe um terceiro numero.`));
+    
+    if (num1 < num2 && num1 < num3) {
+        alert (`${num1} é o menor.`)
+    }
+    
+    else if (num2 < num1 && num2 < num3) {
+        alert (`${num2} é o menor.`)
+    }
+    
+    else if (num3 < num1 && num3 < num1) {
+        alert (`${num3} é o menor.`)
+    }
+    
+    else {
+        alert (`Existem números iguais.`)
+    }
+    
+    </script>
